@@ -1,3 +1,11 @@
+/*
+*
+*	To use this function, include it into your file. Or load it globally. Then call it as follows;
+*	
+* 	yourMatrix = matrix3DCombine(matrix0, matrix1);
+*
+*/
+
 //A simple 4 x 4 Matrix multipler
 const matrix3DCombine = (_initialCoords, _list) => {
 	_list.forEach((_matrix)=>{
